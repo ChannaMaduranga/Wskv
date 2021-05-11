@@ -333,6 +333,15 @@ nav .fa{display: none;
 	text-align: center;
 	padding-left: 10px;
 }
+.icon .fa{
+	padding: 10px;
+}
+@media(max-width: 700px){
+	.icon .fa{
+		padding: 5px;
+
+	}
+}
 
 hr{
 	width: 75%;
@@ -340,7 +349,7 @@ hr{
 }
 @media(max-width: 700px){
 	.Footer p{
-		font-size: 11px;
+	font-size: 10px;
 	}
 }
 
