@@ -6,7 +6,12 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" /></head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" href="counter.css">
+
+</head>
 
 <body>
  	<section class="header">
@@ -33,7 +38,7 @@
  </div>
 </section>
 
- <!----Vision---->
+                           <!----Vision---->
 
 
  <section class="vision">
@@ -44,14 +49,14 @@
 	</div>
 </section>
 
- <!----Discover---->
+                       <!----Discover---->
 
 <section class="discover">
 	<h1>Discover our School</h1>
 	<p>We are home to 400 students from grade 1 to 11. And also we are having the best results in the area. We are proud of our students, teachers and the way our community collaborates to make a difference. Our world-renowned curriculum is built on the best of global and Sri Lanka standards.</p>
 </section>
 
- <!----photo---->
+                       <!----photo---->
 
 <section class="photo">
 	<div class="rowa">
@@ -74,15 +79,69 @@
 			</div>
 		</div>
 	</div>
+
+
+
+
+
+                <!------counter------>
+
 </section>
- 	<section>
- 		<div class="vc_row-full-width vc_clearfix"></div>
- 	</section>
+<section class="counter1">
+
+	<div class="rowaa">
+			<div class="col">
+				<div class="counter-box">
+					<i class="fa fa-users"></i>
+					<h3 class="counter">400</h3>
+					<h6>STUDENTS</h6>
+				</div>
+			</div>
+			<div class="col">
+			<div class="counter-box">
+				<i class="fa fa-graduation-cap"></i>
+				<h3 class="counter">30</h3>
+				<h6>TEACHERS</h6>
+			</div></div>
+			<div class="col">
+			<div class="counter-box">
+				<i class="fa fa-university"></i>
+				<h3 class="counter">11</h3>
+				<h6>GRADES</h6>
+			</div></div>
+			<div class="col">
+			<div class="counter-box">
+				<i class="fa fa-building"></i>
+				<h3 class="counter">6</h3>
+				<h6>BUILDINGS</h6>
+			</div></div>
+
+	</div>
+
+
+<script src="jquery.counterup.min"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+	<script>
+			jquery(document).ready(function( $ ){
+				$('.counter').counterUp({
+	    delay: 10,
+	    time: 1000
+	});
+			});
+	</script>
+
+</section>
+
+
+
+
+<br><br><br>
 <center>
 <hr>
 </center>
 
-<!----Footer---->
+               <!----Footer---->
 <section class="Footer">
 	<h4>About Us</h4>
 	<P>Copyright © Welipenna sinhala Kanishta Vidyalaya <br>by Channa Maduranga  </P>
@@ -111,7 +170,7 @@
 
 
 
-<!----JavaScrift for menu bar---->
+                  <!----JavaScrift for menu bar---->
 <script>
 	var navLinks = document.getElementById("navLinks");
 	function showMenu(){
