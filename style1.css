@@ -70,6 +70,14 @@ nav{
 
 nav .fa{display: none;
 }
+li .fa{
+	display: flex ;
+	font-size: 14px;
+	color: #fff;
+
+	font-weight: 600;
+}
+
 
 
 
@@ -114,6 +122,14 @@ nav .fa{display: none;
 	.nav-links ul{
 		padding: 30px;
 	}
+	li .fa{
+		display: flex ;
+		font-size: 14px;
+		color: #00332B;
+
+		font-weight: 600;
+	}
+
 
 
 

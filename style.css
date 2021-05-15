@@ -28,7 +28,7 @@ nav{
 .nav-links ul li{
 	 list-style: none;
 	 display: inline-block;
-	 padding: 8px 12px;
+	 padding: 8px 14px;
 	 position: relative;
 }
 .nav-links ul li a {
@@ -69,7 +69,13 @@ nav{
 
 nav .fa{display: none;
 }
+li .fa{
+	display: flex ;
+	font-size: 14px;
+	color: #fff;
 
+	font-weight: 600;
+}
 
 
 
@@ -110,9 +116,15 @@ nav .fa{display: none;
 		cursor: pointer;
 	}
 	.nav-links ul{
-		padding: 30px;
+		padding: 20px;
 	}
+	li .fa{
+		display: flex ;
+		font-size: 14px;
+		color: #00332B;
 
+		font-weight: 600;
+	}
 
 
 
