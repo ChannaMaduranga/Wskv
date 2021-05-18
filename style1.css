@@ -384,7 +384,7 @@ input{
 	font-weight: 500;
 	font-size: 30px;
 	position: relative;
-	margin: 100px 0 40px;
+	margin: 80px 0 60px;
 	color: #fff;
 	text-align: center;
 }
@@ -420,7 +420,7 @@ input{
 	display:flex;
 	align-items: center;
 	margin-top: 20px;
-	border-radius: 5px;
+	border-radius: 15px;
 	box-shadow: 3px 3px 5px rgba(0,128,128,0.4);
 
 }
@@ -595,6 +595,7 @@ label{
 }
 .photo-gallery{
 	grid-gap: 10px;
+
 }
 .pic::before{
 	font-size: 12px;
