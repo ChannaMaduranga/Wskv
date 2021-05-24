@@ -486,3 +486,56 @@ hr{
 		font-weight: 300;
 	}
 }
+
+.principal{
+	width:50%;
+	margin: auto;
+	padding-top: 100px;
+	text-align: center;
+}
+.principal-col{
+	flex-basis: 44%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+	background: #fff3f3;
+	padding: 25px;
+	cursor: pointer;
+	display: flex;
+}
+.principal-col img{
+	height: 40px;
+	width: 50px;
+	margin-left:5px;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+.principal-col h3{
+	text-align: left;
+	font-size: 16px;
+}
+.principal-col p{
+
+	text-align: justify;
+	padding: 5px;
+}
+
+@media(max-width: 700px){
+	.principal{
+		width:80%;
+		margin: auto;
+	}
+
+	.xxx p{
+		margin-right: 5px;
+		font-size: 12px;
+	}
+.xxx{
+	width: 80%;
+}
+.principal-col h3{
+	text-align: left;
+	font-size: 14px;
+}
+
+}
