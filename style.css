@@ -59,6 +59,7 @@ nav{
 }
 .text-box h1{
 	 font-size: 36px;
+	 font-family: cursive;
 }
 .text-box p{
 	margin: 10px 0 40px;
@@ -77,7 +78,10 @@ li .fa{
 	font-weight: 600;
 }
 
-
+h6{
+	font-size: 20px;
+	font-family: cursive;
+}
 
 
 
